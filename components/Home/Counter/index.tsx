@@ -3,15 +3,15 @@ import React from 'react'
 export default function Counter() {
   return (
     <>
-    <div class="cs-height_100 cs-height_lg_100" id="info"></div>
-        <div class="cs-accent_20_bg_2 cs-parallax">
-            <div class="cs-bg_parallax" data-src="/img/online-education/funfact-pattern.png">
-            <div class="cs-counter2-wrap">
-                <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                    <div class="cs-counter cs-style2 text-center">
-                        <div class="cs-counter_icon cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+    <div className="cs-height_100 cs-height_lg_100" id="info"></div>
+        <div className="cs-accent_20_bg_2 cs-parallax">
+            <div className="cs-bg_parallax" data-src="/img/online-education/funfact-pattern.png">
+            <div className="cs-counter2-wrap">
+                <div className="container">
+                <div className="row">
+                    <div className="col-lg-4">
+                    <div className="cs-counter cs-style2 text-center">
+                        <div className="cs-counter_icon cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <svg width="111" height="111" viewBox="0 0 111 111" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M82.375 10.115H108.175C108.775 10.115 109.175 10.515 109.175 11.115V30.015C109.175 30.615 108.775 31.015 108.175 31.015H82.375C81.775 31.015 81.375 30.615 81.375 30.015V11.115C81.375 10.515 81.875 10.115 82.375 10.115Z" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M27.475 84.915H105.775C108.175 84.915 110.075 86.815 110.075 89.215V90.915C110.075 93.315 108.175 95.215 105.775 95.215H4.87502C2.47502 95.215 0.575012 93.315 0.575012 90.915V89.215C0.575012 86.815 2.47502 84.915 4.87502 84.915H11.875" fill="#04C27F"/>
@@ -34,17 +34,17 @@ export default function Counter() {
                             <path d="M67.475 44.915V67.515" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                    
                         </div>
-                        <h3 class="cs-counter_number cs-bold">
-                        <span data-count-to="5" class="odometer"></span>
-                        <span class="cs-counter_symble">+</span>
+                        <h3 className="cs-counter_number cs-bold">
+                        <span data-count-to="5" className="odometer"></span>
+                        <span className="cs-counter_symble">+</span>
                         </h3>
-                        <h4 class="cs-counter_title">Total Produk</h4>
+                        <h4 className="cs-counter_title">Total Produk</h4>
                     </div>
-                    <div class="cs-height_30 cs-height_lg_30"></div>
+                    <div className="cs-height_30 cs-height_lg_30"></div>
                     </div>
-                    <div class="col-lg-4">
-                    <div class="cs-counter cs-style2 text-center">
-                        <div class="cs-counter_icon cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div className="col-lg-4">
+                    <div className="cs-counter cs-style2 text-center">
+                        <div className="cs-counter_icon cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <svg width="81" height="121" viewBox="0 0 81 121" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.795 76.215C13.795 74.115 15.495 72.415 17.595 72.415C17.995 72.415 18.395 72.515 18.795 72.615L40.295 79.015L32.695 62.015L9.995 70.015C4.295 72.015 0.494995 77.415 0.494995 83.415V106.515H13.795V76.215V76.215Z" fill="#04C27F" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M70.595 70.015L47.895 62.015L40.295 79.015L61.795 72.615C63.795 71.915 65.895 73.015 66.595 75.015C66.695 75.415 66.795 75.815 66.795 76.215V106.515H80.095V83.415C79.995 77.415 76.195 72.015 70.595 70.015Z" fill="#04C27F" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
@@ -68,17 +68,17 @@ export default function Counter() {
                             <path d="M40.295 49.815C44.495 49.815 47.895 46.415 47.895 42.215H32.795C32.695 46.415 36.095 49.815 40.295 49.815Z" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                    
                         </div>
-                        <h3 class="cs-counter_number cs-bold">
-                        <span data-count-to="5" class="odometer"></span>
-                        <span class="cs-counter_symble">+</span>
+                        <h3 className="cs-counter_number cs-bold">
+                        <span data-count-to="5" className="odometer"></span>
+                        <span className="cs-counter_symble">+</span>
                         </h3>
-                        <h4 class="cs-counter_title">Total Klien</h4>
+                        <h4 className="cs-counter_title">Total Klien</h4>
                     </div>
-                    <div class="cs-height_30 cs-height_lg_30"></div>
+                    <div className="cs-height_30 cs-height_lg_30"></div>
                     </div>
-                    <div class="col-lg-4">
-                    <div class="cs-counter cs-style2 text-center">
-                        <div class="cs-counter_icon cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div className="col-lg-4">
+                    <div className="cs-counter cs-style2 text-center">
+                        <div className="cs-counter_icon cs-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <svg width="111" height="119" viewBox="0 0 111 119" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M59.318 70.515V64.515" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
                             <path d="M99.918 79.015L75.618 70.515L67.518 74.615L59.418 70.515L35.118 79.115C32.018 80.215 29.418 82.315 27.518 85.015V95.815L37.418 113.115C38.318 114.615 38.418 116.515 37.818 118.115H110.118V93.415C110.018 86.915 106.018 81.215 99.918 79.015Z" fill="#FFD600" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
@@ -112,18 +112,18 @@ export default function Counter() {
                             <path d="M67.418 74.515L59.318 70.415L53.518 72.415L60.318 81.515L67.418 74.515Z" stroke="#4F4310" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>                    
                         </div>
-                        <h3 class="cs-counter_number cs-bold">
-                        <span data-count-to="6" class="odometer"></span>
-                        <span class="cs-counter_symble">+</span>
+                        <h3 className="cs-counter_number cs-bold">
+                        <span data-count-to="6" className="odometer"></span>
+                        <span className="cs-counter_symble">+</span>
                         </h3>
-                        <h4 class="cs-counter_title">Tim Kami</h4>
+                        <h4 className="cs-counter_title">Tim Kami</h4>
                     </div>
-                    <div class="cs-height_30 cs-height_lg_30"></div>
+                    <div className="cs-height_30 cs-height_lg_30"></div>
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="cs-height_105 cs-height_lg_50"></div>
+            <div className="cs-height_105 cs-height_lg_50"></div>
             </div>
         </div>
     </> 

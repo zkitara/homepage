@@ -27,11 +27,11 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="cs-main_header_center">
-                        <a className="cs-site_branding" href="/"><img src="{logo}" alt="" /></a>
+                        {/* <Link className="cs-site_branding" href="/"><Image src="{logo}" alt="" /></Link> */}
                     </div>
                     <div className="cs-main_header_right">
                         <div className="cs-toolbox">
-                        <a href="https://api.whatsapp.com/send?phone=6281938512146&text=Saya%20ingin%20menanyakan%20terkait%20pemesanan%20website%20disini" className="cs-toolbox_btn cs-accent_bg cs-white_hover cs-accent_bg_2_hover"><span className="cs-btn_text">Hubungi Kami</span></a>
+                        <Link href="https://api.whatsapp.com/send?phone=6281938512146&text=Saya%20ingin%20menanyakan%20terkait%20pemesanan%20website%20disini" className="cs-toolbox_btn cs-accent_bg cs-white_hover cs-accent_bg_2_hover"><span className="cs-btn_text">Hubungi Kami</span></Link>
                         </div>
                     </div>
                     </div>
